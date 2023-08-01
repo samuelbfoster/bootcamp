@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="memestyles.css" />
+  </head>
+  <body>
+    <form id="form">
+      <label for="image">Paste an image link here:</label><br />
+      <input type="text" id="image" name="image" /><br />
+      <label for="top-text">Insert your top text here:</label><br />
+      <input type="text" id="top-text" name="top-text" /><br />
+      <label for="bot-text">Insert your bottom text here:</label><br />
+      <input type="text" id="bot-text" name="bot-text" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <div id="memes"></div>
+
+    <script src="memeGenerator.js"></script>
+  </body>
+</html>
